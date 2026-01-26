@@ -1,20 +1,23 @@
 # Robots.txt for Rizbi Islam Portfolio
-# Allow all search engines to crawl and index the site
+# Owner: Rizbi Islam — QA Engineer
+# Also known as: Rizbi QA, Rizbi SQA, Rizbi Software Tester
+# This file controls how search engines crawl and index the site.
 
+# Allow all search engines to crawl the main site and assets
 User-agent: *
 Allow: /
 Allow: /css/
 Allow: /js/
 Allow: /assets/
 
-# Disallow private or admin areas (if any)
+# Disallow private or admin areas (uncomment if applicable)
 # Disallow: /admin/
 # Disallow: /private/
 
 # Sitemap location
 Sitemap: https://rizbi-islam.github.io/myprofile/sitemap.xml
 
-# Crawl delay (optional - adjust based on server capacity)
+# Optional: control crawl rate (adjust based on server load)
 # Crawl-delay: 1
 
 # Specific rules for Google
